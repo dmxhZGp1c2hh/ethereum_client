@@ -6,7 +6,7 @@ Gem::Specification.new do |s|
   s.description = 'Simple ruby wrapper around Ethereum JSON RPC API'
   s.author      = 'Vlad D'
   s.email       = 'dmxhZGp1c2hh@yandex.ru'
-  s.files       = Dir['lib/*.rb'] + Dir['spec/*.rb']
+  s.files       = Dir['lib/**/*.rb'] + Dir['spec/*.rb']
   s.homepage    = 'https://github.com/dmxhZGp1c2hh/ethereum_client'
 
   s.add_runtime_dependency 'httparty', '~> 0.13.7'
