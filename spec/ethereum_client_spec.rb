@@ -61,4 +61,34 @@ RSpec.describe EthereumClient do
       end
     end
   end
+
+  describe '.net_version' do
+    it 'raises error' do
+      expect { subject.net_version }.to raise_error(NotImplementedError, 'net_version not yet implemented')
+    end
+  end
+
+  describe '.net_listening' do
+    it 'raises error' do
+      expect { subject.net_listening }.to raise_error(NotImplementedError, 'net_listening not yet implemented')
+    end
+  end
+
+  describe '.net_peer_count' do
+    it 'raises error' do
+      expect { subject.net_peer_count }.to raise_error(NotImplementedError, 'net_peer_count not yet implemented')
+    end
+  end
+
+  describe '.eth_protocol_version' do
+    it 'raises error' do
+      expect { subject.eth_protocol_version }.to raise_error(NotImplementedError, 'eth_protocol_version not yet implemented')
+    end
+  end
+
+  describe '.eth_syncing' do
+    it 'raises error' do
+      expect { subject.eth_syncing }.to raise_error(NotImplementedError, 'eth_syncing not yet implemented')
+    end
+  end
 end
