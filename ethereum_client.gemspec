@@ -1,6 +1,6 @@
 Gem::Specification.new do |s|
   s.name        = 'ethereum_client'
-  s.version     = '0.0.0'
+  s.version     = '0.0.1'
   s.license     = 'MIT'
   s.summary     = 'Ethereum JSON RPC client'
   s.description = 'Simple ruby wrapper around Ethereum JSON RPC API'
